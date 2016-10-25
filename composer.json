@@ -1,0 +1,15 @@
+{
+    "name": "afrihost/fun-base",
+    "description": "The base composer package for the \"Fun with Code\" series",
+    "type": "project",
+    "require": {
+        "symfony/var-dumper": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sarel van der Walt",
+            "email": "sarel@afrihost.com"
+        }
+    ]
+}
