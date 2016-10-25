@@ -2,6 +2,11 @@
     "name": "afrihost/fun-base",
     "description": "The base composer package for the \"Fun with Code\" series",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fun\\": "src/"
+        }
+    },
     "require": {
         "symfony/var-dumper": "^3.1"
     },
