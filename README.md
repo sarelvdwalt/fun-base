@@ -27,6 +27,17 @@ You'll have to **Fork** this project (because you won't have access to submit y 
 - Installing your dependencies:
     + Just run `php bin/composer install` inside your directory on localhost where you cloned it, and you should see a ton of stuff being installed.
 
+### Is it working?
+If you run this:
+
+    php play.php
+
+And you get the output:
+
+    It worked! Try giving your own value! :)
+
+It means it's working perfectly :)
+
 Please chat to me or one of the devs if you need more help, and we'll give you a nudge in the right direction.
 
 
