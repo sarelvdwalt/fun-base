@@ -1,7 +1,23 @@
-## Fun with Code (Base)
-The base composer package for the "Fun with Code" series
+# {{ name of project }}
 
-### Getting Started / Installing
+_Please read the "Getting Started" section if you are unfamiliar with getting the project going._
+
+## What it's about:
+
+{{ description }}
+
+### Where the code sits:
+
+You can look at two files:
+- play.php: This is the file you'll run using `php play.php` to see the code in action.
+- {{ other files }}
+
+### Testing:
+
+To test, just run: `php play.php` as you did before, and see the results.
+
+---
+## Getting Started / Installing
 
 Before you start, please have a quick read about the following technologies:
 
@@ -14,9 +30,9 @@ Before you start, please have a quick read about the following technologies:
     + It's as easy telling it that your project will be using something specific, and runnnig an installation for it. You can then start to use those classes and libraries in your code.
     + Read more about it here: [Introduction to Composer](https://getcomposer.org/doc/01-basic-usage.md)
 
-### Right, let's start coding:
+## Right, let's start coding:
 
-You'll have to **Fork** this project (because you won't have access to submit y our code to my repository). Then you'll have to **Clone** it to your local machine. Then you'll have to install all the **dependencies with composer**, so that you can actually start work on it.
+You'll have to **Fork** this project (because you won't have access to submit your code to my repository). Then you'll have to **Clone** it to your local machine. Then you'll have to install all the **dependencies with composer**, so that you can actually start work on it.
 
 - Forking:
     + My repository is read-only to you, so you'll have to "copy" it. In github terms it's called **forking**.
@@ -27,7 +43,7 @@ You'll have to **Fork** this project (because you won't have access to submit y 
 - Installing your dependencies:
     + Just run `php bin/composer install` inside your directory on localhost where you cloned it, and you should see a ton of stuff being installed.
 
-### Is it working?
+## Is it working?
 If you run this:
 
     php play.php
